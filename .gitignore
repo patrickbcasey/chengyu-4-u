@@ -131,3 +131,6 @@ dist
 
 # nodemon config
 nodemon.json
+
+# procfile
+Procfile

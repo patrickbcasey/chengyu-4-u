@@ -1893,11 +1893,6 @@ html {
   align-items: center;
 }
 
-.navbar-start {
-  width: 50%;
-  justify-content: flex-start;
-}
-
 .navbar-center {
   flex-shrink: 0;
 }
@@ -2418,6 +2413,14 @@ html {
   left: 0px;
 }
 
+.order-2 {
+  order: 2;
+}
+
+.order-1 {
+  order: 1;
+}
+
 .col-span-4 {
   grid-column: span 4 / span 4;
 }
@@ -2453,8 +2456,17 @@ html {
   margin-bottom: 2rem;
 }
 
-.mr-4 {
-  margin-right: 1rem;
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .ml-2 {
@@ -2467,10 +2479,6 @@ html {
 
 .flex {
   display: flex;
-}
-
-.grid {
-  display: grid;
 }
 
 .hidden {
@@ -2521,6 +2529,10 @@ html {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -2531,10 +2543,6 @@ html {
 
 .gap-5 {
   gap: 1.25rem;
-}
-
-.overflow-hidden {
-  overflow: hidden;
 }
 
 .rounded-lg {
@@ -2598,6 +2606,10 @@ html {
 
 .pl-10 {
   padding-left: 2.5rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-4xl {
@@ -2732,7 +2744,40 @@ html {
 }
 
 @media (min-width: 1024px) {
+  .lg\:navbar-start {
+    width: 50%;
+    justify-content: flex-start;
+  }
+
+  .lg\:order-1 {
+    order: 1;
+  }
+
+  .lg\:order-2 {
+    order: 2;
+  }
+
+  .lg\:mr-4 {
+    margin-right: 1rem;
+  }
+
+  .lg\:ml-5 {
+    margin-left: 1.25rem;
+  }
+
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:grid {
+    display: grid;
+  }
+
+  .lg\:overflow-hidden {
+    overflow: hidden;
+  }
+
+  .lg\:text-left {
+    text-align: left;
   }
 }
