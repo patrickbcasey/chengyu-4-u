@@ -1,0 +1,35 @@
+{
+  "name": "chengyu-4-u",
+  "version": "1.0.0",
+  "description": "application for learning chengyu",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e ejs,js,json server.js && npm run tailwind:css",
+    "tailwind:css": "npx tailwindcss -i ./public/css/tailwind.css -o ./public/css/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrick Casey",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.2",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "daisyui": "^2.31.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  }
+}
