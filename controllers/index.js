@@ -1,7 +1,14 @@
+const Chengyu = require("../models/Chengyu");
+
 module.exports = {
-    getIndexList: (req, res) => {
-      res.render("indexList.ejs");
+    getIndexList: async (req, res) => {
+        try {
+            res.render("indexList.ejs");
+        } catch (err) {
+            console.log(err);    
+        }
     },
 
   };
   
+

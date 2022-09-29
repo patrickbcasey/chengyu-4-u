@@ -9,7 +9,7 @@ const ChengyuSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    translation: {
+    literal: {
         type: String,
         required: true
     },

@@ -27,16 +27,15 @@
         </section class=>
 
         <section class="border basis-6/12 bg-[#d3d3d3]">
-            <h3>Random Chengyu</h3>
+            <h3 class="m-4">Random Chengyu</h3>
             <ul>
-                <li>
-                    <p>Chinese/Jyutping</p>
-                    <p>Translation</p>
+                <% for(var i=0; i<chengyuList.length; i++) {%>
+                <li class="ml-5 mb-3">
+                    <p lang="zh-hant" class="text-sm"><%= chengyuList[i].chinese %> (<%= chengyuList[i].jyutping %>)</p>
+                    <p class="text-sm">"<%= chengyuList[i].meaning %>"</p>
                 </li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <% } %>
+
             </ul>
 
         </section>
