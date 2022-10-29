@@ -6,15 +6,21 @@ Chengyu 4 U is a website and API dedicated to Chinese idiomatic expressions. Use
 On the development server:
 
 ```bash
+cd /api
 npm install
-node server.js
+npm start
+cd ../client
+npm install
+npm start
 ``` 
 Open http://localhost:3000 with your browser
+
+The backend is hosted on http://localhost:8000
 
 ## This Site and its API are actively under construction
 
 **Tech used:**
-- This project was built using Node.js, Express.js, TailwindCSS, and MongoDB
+- This project was built using Node.js, Express.js, React.js, TailwindCSS & MongoDB
 
 
 ## Optimizations
@@ -25,4 +31,4 @@ Open http://localhost:3000 with your browser
 
 ## Lessons Learned:
 - Double and triple check the path of the tailwind config file after the fourth time that it tells me that I linked it wrong.
-- It is exceedingly diffiicult to have a site with more than one language on the same page
+- It is exceedingly difficult to have a site with more than one language on the same page
