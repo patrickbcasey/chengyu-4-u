@@ -18,9 +18,5 @@ module.exports = {
         }       
     },
 
-    getPronunciation: (req, res) => {
-        res.render("pronunciation.ejs");
-      },
-
   };
   
