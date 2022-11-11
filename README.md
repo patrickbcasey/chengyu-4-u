@@ -1,5 +1,23 @@
-<h1 align="center">Chengyu 4 U</h1>
-Chengyu 4 U is a website and API dedicated to Chinese idiomatic expressions. Users can see a variety of traditional chengyu, and learn their meanings and pronunciations. Users can see the chengyu of the day or browse our library of chengyu to expand their vocabulary of our favourite Cantonese idioms
+<div align="center">
+<img src="/client/public/img/logo.svg" alt='A black cat'/> 
+
+
+<h3 align="center">Chengyu 4 U</h3>
+
+  <p align="center">
+   Chengyu 4 U is a website and API dedicated to Chinese idiomatic expressions. Users can see a variety of traditional chengyu, and learn their meanings and pronunciations. Users can see the chengyu of the day or browse our library of chengyu to expand their vocabulary of our favourite Cantonese idioms
+    <br />
+    <a href="https://github.com/patrickbcasey/chengyu-4-u"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://chengyu-4-u.onrender.com/">View Demo</a>
+    ·
+    <a href="https://github.com/patrickbcasey/chengyu-4-u/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/patrickbcasey/chengyu-4-u/issues">Request Feature</a>
+  </p>
+</div>
+
 
 
 ## Getting Started:
