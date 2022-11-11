@@ -21,12 +21,8 @@ const Body = () => {
   const fetchChengyu = async () => {
 
     try {
-<<<<<<< HEAD
       const response = await axios('/api')
-=======
-      const response = await axios.get('http://localhost:8000/api')
->>>>>>> 272135c15f80cbc926d8da2d9520453574001f6a
-    return response.data
+      return response.data
     } catch (err) {
       console.log(err);
       return err
