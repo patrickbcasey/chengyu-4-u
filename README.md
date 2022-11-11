@@ -1,5 +1,5 @@
 <div align="center">
-<img src="/client/public/img/logo.svg" alt='A black cat'/> 
+<img src="/client/public/img/logo.svg" alt='A black cat' width="200"/> 
 
 
 <h3 align="center">Chengyu 4 U</h3>
